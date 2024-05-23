@@ -19,6 +19,8 @@ import java.util.List;
 @Table(name = "board_tb")
 @Entity
 public class Board {
+    //배포준비중 왜안됨?
+    //원래그런거임?
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
