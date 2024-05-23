@@ -20,6 +20,7 @@ import java.util.List;
 @Entity
 public class Board {
     //배포준비중 왜 안 됨?
+    //다시도전
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
